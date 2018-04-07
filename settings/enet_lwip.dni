@@ -1,0 +1,29 @@
+[DisAssemblyWindow]
+NumStates=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[Profiling]
+Enabled=0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Disassemble mode]
+mode=1
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\enet_lwip.c}.544.5@1" 1 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$TOOLKIT_DIR$\examples\Luminary\Stellaris\third_party\lwip-1.2.0\apps\httpd\httpd.c}.251.3@1" 1 0 0 0 "" 0 ""
+Count=2
