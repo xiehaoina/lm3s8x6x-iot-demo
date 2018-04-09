@@ -17,6 +17,7 @@
 #ifndef __MQTT_LM3SX_
 #define __MQTT_LM3SX_
 
+#include "lwip/tcp.h"
 
 typedef struct Timer
 {
@@ -25,7 +26,7 @@ typedef struct Timer
 
 typedef struct Network
 {
-	int my_socket;
+	struct tcp_pcb *pcb;
 	int (*mqttread) (struct Network*, unsigned char*, int, int);
 	int (*mqttwrite) (struct Network*, unsigned char*, int, int);
 } Network;

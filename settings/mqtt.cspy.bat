@@ -22,7 +22,7 @@
 @REM but they are listed at the end of this file for reference.
 
 
-"D:\program\IAR Systems\Embedded Workbench 5.0 Kickstart\common\bin\cspybat" "D:\program\IAR Systems\Embedded Workbench 5.0 Kickstart\ARM\bin\armproc.dll" "D:\program\IAR Systems\Embedded Workbench 5.0 Kickstart\ARM\bin\armlmiftdi.dll"  %1 --plugin "D:\program\IAR Systems\Embedded Workbench 5.0 Kickstart\ARM\bin\<libsupport_plugin>" --backend -B "--endian" "little" "--cpu" "Cortex-M3" "--fpu" "None" "--proc_device_desc_file" "D:\program\IAR Systems\Embedded Workbench 5.0 Kickstart\ARM\CONFIG\debugger\Luminary\iolm3sxxxx.ddf" "--proc_driver" "lmiftdi" "--lmiftdi_speed" "500" 
+"D:\program\IAR Systems\Embedded Workbench 5.0 Kickstart\common\bin\cspybat" "D:\program\IAR Systems\Embedded Workbench 5.0 Kickstart\ARM\bin\armproc.dll" "D:\program\IAR Systems\Embedded Workbench 5.0 Kickstart\ARM\bin\armlmiftdi.dll"  %1 --plugin "D:\program\IAR Systems\Embedded Workbench 5.0 Kickstart\ARM\bin\<libsupport_plugin>" --backend -B "--endian" "little" "--cpu" "Cortex-M3" "--fpu" "None" "--proc_device_desc_file" "D:\program\IAR Systems\Embedded Workbench 5.0 Kickstart\ARM\CONFIG\debugger\Luminary\iolm3sxxxx.ddf" "--drv_verify_download" "all" "--drv_attach_to_program" "--proc_driver" "lmiftdi" "--lmiftdi_speed" "500" 
 
 
 @REM Loaded plugins:

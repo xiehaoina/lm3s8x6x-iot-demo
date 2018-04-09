@@ -47,6 +47,7 @@
 #include "lwip/sys.h"
 #include "lwip/stats.h"
 #include "netif/etharp.h"
+#include "mqtt_lm3sx.h"
 
 //*****************************************************************************
 //
@@ -630,11 +631,12 @@ main(void)
     // the low-level Ethernet code.
     //
     lwip_init();
-
+    //Network network;
+//    NetworkConnect(&network,NULL,0);
     //
     // Initialize a sample httpd server.
     //
-    httpd_init();
+    //httpd_init();
 
     //
     // Main Application Loop (for systems with no RTOS).  Run every SYSTICK.
